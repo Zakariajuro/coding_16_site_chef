@@ -13,5 +13,13 @@
     "@fortawesome/fontawesome-free": "^5.15.1",
     "bootstrap": "^4.5.3",
     "jquery": "^3.5.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zakariajuro/coding_16_site_chef.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Zakariajuro/coding_16_site_chef/issues"
+  },
+  "homepage": "https://github.com/Zakariajuro/coding_16_site_chef#readme"
 }
