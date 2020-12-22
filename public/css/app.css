@@ -18978,3 +18978,30 @@ h4 {
   border: solid 7px;
   border-color: #c8c0d6f8;
 }
+
+.carterouge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.carterouge .divsrouge {
+  background-color: #db3e3efb;
+  border-radius: 5px;
+}
+
+.carterouge .divsrouge i {
+  padding-top: 30px;
+}
+
+.carterouge .divsrouge p {
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #ebe6e6ea;
+}
+
+.iconphone {
+  font-size: 40px;
+  color: #ebe6e6ea;
+}
