@@ -18183,6 +18183,10 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+body {
+  background-image: url("../img/main_bg.jpg");
+}
+
 nav div ul li a {
   background-color: transparent;
 }
@@ -18227,10 +18231,6 @@ ol li {
   position: absolute;
   bottom: 0%;
   display: flex;
-}
-
-.section1 {
-  background-image: url("../img/main_bg.jpg");
 }
 
 .granddiv {
@@ -18293,4 +18293,8 @@ p {
 .divbas {
   display: flex;
   justify-content: space-between;
+}
+
+.section2 {
+  background-image: url("../img/team_background.jpg");
 }
