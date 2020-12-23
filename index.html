@@ -14,8 +14,21 @@
         <div id="carouselExampleIndicators" class="carousel slide position-relative" data-ride="carousel">
             <!-- NAVBAR  -->
             <nav class="navbar position-absolute mx-auto" style="z-index: 1;">
+                <div class="d-xl-none dropdown">
+                    <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      MENU 
+                    </a>
+                  
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item" href="#">Home</a>
+                      <a class="dropdown-item" href="#">ABOUT US</a>
+                      <a class="dropdown-item" href="#">Menu list</a>
+                      <a class="dropdown-item" href="#">TEAM</a>
+                    </div>
+                  </div>
+                <!-- NAV DE BASE  -->
                 <div class="ml-8 pt-5" class="nav1">
-                    <ul class="d-flex list-unstyled pl-4 text-uppercase border-right-0 border-left-0 border border-light">
+                    <ul class="d-none d-xl-flex list-unstyled pl-4 text-uppercase border-right-0 border-left-0 border border-light">
                         <li class="nav-item">
                             <a class="nav-link text-light btn" href="">Home</a>
                         </li>
@@ -35,7 +48,7 @@
                 </div>
                 <div><img src="./public/img/logo.png" class="mx-5" alt=""></div>
                 <div class="mr-8 pt-5" class="nav2">
-                    <ul class="d-flex list-unstyled text-light text-uppercase border-right-0 border-left-0 border border-light">
+                    <ul class="d-none d-xl-flex list-unstyled text-light text-uppercase border-right-0 border-left-0 border border-light">
                         <li class="nav-item">
                             <a class="nav-link text-light btn" href="">Reservation</a>
                         </li>
@@ -54,7 +67,7 @@
                     </ul>
                 </div>
                 <!-- TITRE CAROUSEL -->
-                <div class="divh1 text-center text-light mx-auto">
+                <div class="divh1 flex-lg-column text-center text-light mx-auto">
                     <h1>Wathver your <span class="occasion">OCCASION</span>,</h1>
                     <h1><span class="taste text-danger">TASTE</span> makes it one</h1>
                     <h1>to REMEMBER</h1>
@@ -110,16 +123,18 @@
     <section class="section1">
         <div class="granddiv">
             <div class="ihi bg-light">
-                <img src="./public/img/box-left-top.png" alt="">
+                <img class="coin1" src="./public/img/box-left-top.png" alt="">
                 <div class="h2img text-center">
-                    <h2><span class="our text-danger">OUR</span> Story</h2>
-                    <img src="./public/img/decoration_line.png" alt="">
+                    <h2 class="noirrouge"><span class="our mw-100 text-danger">OUR</span> Story</h2>
+                    <div class="">
+                        <img class="mx-100" src="./public/img/decoration_line.png" alt="">
+                    </div>
                 </div>
-                <img src="./public/img/box-right-top.png" alt="">
+                <img class="coin2" src="./public/img/box-right-top.png" alt="">
             </div>
             <p class="text-center bg-light mb-0 pt-10 px-9">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam fugiat deserunt odio nulla nostrum, quis ratione mollitia iusto consectetur aliquam itaque dolorum? Quaerat sunt numquam expedita beatae fugit voluptatibus eligendi atque facilis, sapiente eum, modi possimus dolor minima, sed iure reprehenderit? Nam perspiciatis adipisci nulla alias, eaque omnis nobis expedita! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sapiente optio culpa enim veritatis praesentium consequatur ex! Iste impedit repellat quae magni distinctio ullam, veritatis hic minima obcaecati architecto? Id!</p>
             <div class="text-center pt-6 bg-light">
-                <h2><span class="our text-danger">OUR</span> Story</h2>
+                <h2 style="font-family: courgette;"><span class="our text-danger">OUR</span> Menu List</h2>
                 <img class="pb-6" src="./public/img/decoration_line.png" alt="">
             </div>
             <div class="container px-0 bg-light text-center">
@@ -272,12 +287,14 @@
                         </div>
                 </div>
             </div>
-            <div class="divbas pt-10">
-                <img src="./public/img/box-bottom-left.png" alt="">
-                <div class="pb-10 text-center">
-                    <img src="./public/img/decoration_line.png" alt="">
+            <div class="ihi bg-light">
+                <img class="coinbas1" src="./public/img/box-bottom-left.png" alt="">
+                <div class="h2img text-center">
+                    <div class="">
+                        <img class="mx-100 pb-6" src="./public/img/decoration_line.png" alt="">
+                    </div>
                 </div>
-                <img src="./public/img/box-bottom_right.png" alt="">
+                <img class="coinbas2" src="./public/img/box-bottom_right.png" alt="">
             </div>
         </div>
     </section>
@@ -287,26 +304,26 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 text-center pt-6">
-                    <h2 class="text-light"><span class="our text-danger">OUR</span> Story</h2>
+                    <h2 style="font-family: courgette;" class="text-light"><span style="font-family: courgette;" class="our text-danger">MEET</span> Our Chef</h2>
                     <img class="pb-6" src="./public/img/decoration_line.png" alt="">
                 </div>
             </div>
         
             <div class="container"> 
                 <div class="row text-center pb-6">
-                    <div class="col-3">
+                    <div class="col-12 col-md-6 col-lg-3">
                         <img src="./public/img/chef1.png" class=" border-top-0 border-right-0 border-left-0 border border-secondary" alt="">
                         <p class="text-light">Lorem ipsum</p>
                     </div>
-                    <div class="col-3">
+                    <div class="col-12 col-md-6 col-lg-3">
                         <img src="./public/img/chef2.png" class=" border-top-0 border-right-0 border-left-0 border border-secondary" alt="">
                         <p class="text-light">Lorem ipsum</p>
                     </div>
-                    <div class="col-3">
+                    <div class="col-12 col-md-6 col-lg-3">
                         <img src="./public/img/chef3.png" class=" border-top-0 border-right-0 border-left-0 border border-secondary" alt="">
                         <p class="text-light">Lorem ipsum</p>
                     </div>
-                    <div class="col-3">
+                    <div class="col-12 col-md-6 col-lg-3">
                         <img src="./public/img/chef4.png" class=" border-top-0 border-right-0 border-left-0 border border-secondary" alt="">
                         <p class="text-light">Lorem ipsum</p>
                     </div>
@@ -317,13 +334,15 @@
 
     <!-- SECTION 3 -->
     <section class="section3 bg-light mt-7">
-        <div class="hautpages3 bg-light text-center">
-            <img src="./public/img/box-left-top-grey.png" alt="">
-            <div class="pt-7">
-                <h2><span class="our text-danger">BOOK</span> Your Table</h2>
-                <img src="./public/img/decoration_line.png" alt="">
+        <div class="ihi bg-light">
+            <img class="coin1" src="./public/img/box-left-top-grey.png" alt="">
+            <div class="h2img text-center">
+                <h2 style="font-family: courgette;"><span class="our mw-100 text-danger">BOOK</span> Your Table</h2>
+                <div class="">
+                    <img class="mx-100" src="./public/img/decoration_line.png" alt="">
+                </div>
             </div>
-            <img src="./public/img/box-right-top-grey.png" alt="">
+            <img class="coin2" src="./public/img/box-right-top-grey.png" alt="">
         </div>
         
         <!-- FORMULAIRE -->
@@ -333,7 +352,7 @@
                     <p class="telephone text-center text-light py-4">For any query call us at: <span class="num">+91-1234567890</span></p>
                     <div class="container">
                         <div class="row text-center">
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6">
                                 <input class="input my-2 py-2 pl-2" placeholder="Entrer Full Num" type="text">
                                 <!-- <input class="input my-2 py-2 pl-2" placeholder="Phone Number"  type="text" > -->
                                 <div class="dropdown">
@@ -349,7 +368,7 @@
                                 <input class="input my-2 py-2 pl-2" placeholder="Date" type="text">
                                 <input class="input my-2 py-2 pl-2" placeholder="Occasion" type="text">
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6">
                                 <input class="input my-2 py-2 pl-2" placeholder="Entrer id" type="text">
                                 <div class="dropdown">
                                     <button class="btn btn-light my-2 py-2 px-5 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -387,14 +406,14 @@
         </div>
         <!-- PARTIE 2 SECTION -->
         <div class="text-center py-7">
-            <h2><span class="our text-danger">OUR</span> Book</h2>
+            <h2 style="font-family: courgette;"><span class="our text-danger">OUR</span> Blogs</h2>
             <img src="./public/img/decoration_line.png" alt="">
         </div>
         <!-- CARTE DE COMMANDE -->
         <div class="container">
             <div class="row text-center">
-                <div class="col-6 text-left">
-                    <div class="divdate w-100 text-center position-relative">
+                <div class="col-12 col-lg-6 text-left">
+                    <div class="divdate mx-100 mw-100 text-center position-relative">
                         <img class="poulet mb-3" src="./public/img/blog_img1.jpg" alt="">
                         <button type="button" class="date btn btn-danger py-2"><span class="numdate">12</span> April 2017/ <span class="numdate">20</span> Commante / <span class="numdate">25</span> Like</button>
                     </div>
@@ -403,8 +422,8 @@
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                    </div>
                 </div>
-                <div class="col-6 text-left">
-                    <div class="divdate w-100 text-center">
+                <div class="col-12 col-lg-6 text-left ">
+                    <div class="divdate w-100 mw-100 text-center">
                         <img class="poulet mb-3" src="./public/img/blog_img2.jpg" alt="">
                         <button type="button" class="date btn btn-danger py-2"><span class="numdate">12</span> April 2017/ <span class="numdate">20</span> Commante / <span class="numdate">25</span> Like</button>
                     </div>
@@ -423,11 +442,14 @@
             </div>
         </div>
         <!-- IMG DE DECO SUR LES BORD  -->
-        <div class="divsection3 bg-light mt-7">
-            <div class="hautpages3v2 bg-light text-center">
-                <img src="./public/img/box-bottom-left-grey.png" alt="">
-                
-                <img src="./public/img/box-bottom_right-grey.png" alt="">
+        <div class="ihi bg-light">
+            <img class="coinbas1" src="./public/img/box-bottom-left-grey.png" alt="">
+            <div class="h2img text-center">
+                <div class="">
+                    <img class="mx-100 pb-6" src="./public/img/decoration_line.png" alt="">
+                </div>
+            </div>
+            <img class="coinbas2" src="./public/img/box-bottom_right-grey.png" alt="">
         </div>
 
     </section>
@@ -435,13 +457,13 @@
 <!-- SECTION 4 -->
     <section class="section4">
         <div class="text-center pt-6">
-            <h2 class="text-light"><span class="our text-danger">CLIENTS</span> Testimonials</h2>
+            <h2 style="font-family: courgette;" class="text-light"><span style="font-family: courgette;" class="our text-danger">CLIENTS</span> Testimonials</h2>
             <img src="./public/img/decoration_line.png" alt="">
         </div>
         <div class="container mt-7">
             <div class="row pb-6">
-                <div class="col-6">
-                    <div class="d-flex align-items-center">
+                <div class="col-12 col-lg-6">
+                    <div class="d-block d-md-flex align-items-center">
                 
                         <img class="fille rounded-circle" src="./public/img/testimonial1.jpg" alt="">
                         <div class="text-light px-3 py-2 mx-3 border border-light rounded">
@@ -451,8 +473,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
-                    <div class="d-flex align-items-center">
+                <div class="col-12 col-lg-6">
+                    <div class="d-block d-md-flex  align-items-center">
                         <div class="text-light px-3 py-2 mx-3 border border-light rounded">
                             <h5>LOREM</h5>
                             <p class="text-danger">Manager</p>
@@ -494,6 +516,8 @@
         </div>
 
     </section>
+
+    <!-- FOOTER  -->
     <footer class="footer position-relative overflow-hidden">
         <div class="dentbottom">
             <img src="./public/img/footer_bottom_decoration_img.png" alt="">
@@ -514,7 +538,7 @@
         <div class="pt-8 pb-8">
             <div class="container">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-12 col-lg-4">
                         <h3 class="text-light pb-4">ABOUT US</h3>
                         <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere expedita, vero alias repellendus ipsum inventore numquam nulla vel. Officia, eligendi?</p>
                         <div>
@@ -524,7 +548,7 @@
                             <i class="iconfooter px-1 fab fa-linkedin-in text-light"></i>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-lg-4">
                         <h3 class="text-light pb-4">INSTAGRAM</h3>
                         <div class="container">
                             <div class="row">
@@ -560,7 +584,7 @@
                         </div>
 
                     </div>
-                    <div class="col-4 text-left">
+                    <div class="col-12 col-lg-4">
                         <h3 class="text-light  pb-4">POPULARS TAGS</h3>
                         <button type="button" class="btn btn-outline-dark bg-danger text-white rounded-pill mb-2">Restaurent</button>
                         <button type="button" class="btn btn-outline-dark bg-danger text-white rounded-pill mb-2">Responsive Design</button>

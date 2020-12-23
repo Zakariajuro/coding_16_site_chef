@@ -8,6 +8,11 @@
   src: url("../public/font/Ubuntu");
 }
 
+@font-face {
+  font-family: "lobster";
+  src: url("../public/font/lobster");
+}
+
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -18785,6 +18790,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   background-image: url("../img/main_bg.jpg");
+  margin: 0;
 }
 
 nav div ul li a {
@@ -18840,8 +18846,33 @@ ol li {
 }
 
 .ihi {
+  position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.ihi .coin1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ihi .coin2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.ihi .coinbas1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.ihi .coinbas2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .ihi h1 {
@@ -18852,8 +18883,13 @@ ol li {
   padding-top: 70px;
 }
 
+.noirrouge {
+  font-family: "courgette";
+}
+
 .our {
   font-size: 40px;
+  font-family: "courgette";
 }
 
 h4 {
