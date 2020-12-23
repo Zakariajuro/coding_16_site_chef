@@ -19005,3 +19005,28 @@ h4 {
   font-size: 40px;
   color: #ebe6e6ea;
 }
+
+.footer {
+  background-image: url("../img/footer_background.jpg");
+}
+
+.dentbottom {
+  position: absolute;
+  top: 0%;
+  display: flex;
+}
+
+.tagfooter {
+  font-size: 10px;
+}
+
+.iconfooter {
+  font-size: 30px;
+}
+
+.divrougebas {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+  background-image: none;
+}
