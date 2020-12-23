@@ -18890,11 +18890,13 @@ ol li {
 .our {
   font-size: 40px;
   font-family: "courgette";
+  font-style: italic;
 }
 
 h4 {
   font-family: "courgette";
   color: grey;
+  font-style: italic;
 }
 
 .dollar {
