@@ -19204,6 +19204,11 @@ h4 {
   background-color: #dfd8d7fa;
 }
 
+.para1 {
+  padding-left: 30vh;
+  padding-right: 30vh;
+}
+
 p {
   font-size: 14px;
 }
@@ -19311,6 +19316,10 @@ h4 {
   justify-content: space-between;
 }
 
+.select {
+  border-radius: 10px;
+}
+
 .section4 {
   background-image: url("../img/testimonials_background.jpg");
   margin-top: 70px;
@@ -19320,6 +19329,16 @@ h4 {
   border-radius: 20px;
   border: solid 7px;
   border-color: #c8c0d6f8;
+  width: 200px;
+  height: 200px;
+}
+
+.femme {
+  border-radius: 20px;
+  border: solid 7px;
+  border-color: #c8c0d6f8;
+  width: 200px;
+  height: 200px;
 }
 
 .carterouge {
@@ -19372,4 +19391,36 @@ h4 {
   height: 100px;
   background-color: rouge;
   background-image: none;
+}
+
+@media screen and (max-width: 991px) {
+  .para1 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 762px) {
+  .date {
+    font-size: 8px;
+  }
+  .numdate {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 763px) {
+  .date {
+    font-size: 18px;
+  }
+  .numdate {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 762px) {
+  .gdform {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
